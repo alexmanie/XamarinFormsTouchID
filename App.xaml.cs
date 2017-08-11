@@ -8,7 +8,7 @@ namespace ThumbTest
 		{
 			InitializeComponent();
 
-			MainPage = new ThumbTestPage();
+			MainPage = new NavigationPage(new ThumbTestPage());
 		}
 
 		protected override void OnStart()
